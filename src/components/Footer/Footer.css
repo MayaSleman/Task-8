@@ -1,0 +1,84 @@
+
+.footer{
+    background-color: #222222;
+    color: white;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 25px;
+}
+.footerContent a{
+    color: white;
+    text-decoration: none;
+}
+.UsefulLinks{
+    list-style: none;
+}
+.footerContent h3{
+    padding:20px 0 10px 0;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.footerContent p ,.footerContent a,.footerContent ul{
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+}
+.footerContent ul li{
+    font-family: "Montserrat", sans-serif;
+}
+.headOffice{
+    width: 30%;
+}
+.headOffice h3{
+font-size: 25px;
+margin-top: 20px;
+width: max-content;
+}
+.keepInTouch{
+    margin-top: 30px;
+}
+.ficon{
+    color:#222222;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: large;
+    margin: 2px;
+}
+.copyRight{
+    padding:20px 0;
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 65%;
+    background-color: white;
+    height: 1px;
+    margin:8px 0 0 80px ;
+}
+@media (max-width : 576px) {
+    .footerContent ,.copyRight{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .headOffice,.headOffice h3{
+        width: 100%;
+        text-align: center;
+    }
+    .focalAgency{
+        width: max-content;
+        margin: 0 auto;
+    }
+    .line{
+        margin: 5px auto;
+        width: 80%;
+    }
+}

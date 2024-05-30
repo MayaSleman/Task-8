@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.hosting h2{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    color: white;
+}
+.hosting{
+    background-color: #222222;
+    padding: 0 35px;
+}
+.hostCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hostCard{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin:50px auto 30px auto;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.45);
+    padding: 20px;
+    line-height: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.hostList{
+    list-style: none;
+    margin-bottom: 18px;
+    width: max-content;
+}
+.hostCard p{
+    margin-top: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.hostCard h3{
+    margin: 10px 0;
+    font-weight: 900;
+}
+.hostCard ul li {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.hostCard h4{
+    padding-top: 10px;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.discount p{
+    font-size: 14px;
+    width: 50%;
+}
+.btn{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 20px;
+    width: 100%;
+}
+.btn1{
+    color:#ff8500;
+    border: 2px solid #ff8500;
+}
+.btn2{
+    color: #a513ff;
+    border: 2px solid #a513ff;
+}
+.btn3{
+    color: #71aa27;
+    border: 2px solid #71aa27;
+}
+.btn4{
+    color: #1d5edd;
+    border: 2px solid #1d5edd;
+}
+.host1::after{
+    content: "";
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff8500;
+}
+.host2::after{
+    content: "";
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#a513ff;
+}
+.host3::after{
+    content: "";
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#71aa27;
+}
+.host4::after{
+    content: "";
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#1d5edd;
+}
+.concatInfo{
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 60px;
+    font-family: "main" ,sans-serif;
+}
+.concatInfo a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width : 350px) {
+    .hosting{
+        padding: 0px;
+    }
+}

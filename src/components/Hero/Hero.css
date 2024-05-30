@@ -1,0 +1,186 @@
+.hero{
+    height: 100vh;
+    position: relative;
+    padding-top: 150px;
+}
+.heroText{
+    width: 50%;
+    line-height: 35px;
+}
+.heroText h1{
+    color: #ff8500;
+    font-size: 29px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.heroText p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #282828;
+    font-family: "main" ,sans-serif;
+}
+.PressStart{
+    font-weight: bolder;
+}
+.heroFooter{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.FooterMobile{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+.gameBoy{
+    width: 20%;
+    position: absolute;
+    right: 15px;
+    bottom: 45px;
+    z-index: 1;
+}
+.gamefor{
+    width: 30%;
+    display: none;
+    position: absolute;
+    right: 15px;
+    bottom: 45px;
+    z-index: 1;
+}
+.pattrens{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pressStart{
+    position: absolute;
+    right: 120px;
+    bottom: 152px;
+    z-index: 2;
+}
+.start{
+    color: #ff8500;
+    font-weight: bolder;
+    font-size: 27px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 230px;
+    right: 360px;
+}
+.textFooter{
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.experience{
+    display: none;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+}
+.scroll a{
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    color: #ff8500;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: large;
+    margin: 5px;
+}
+@media (max-width : 1200px) {
+   .heroText {
+    line-height: 25px;
+    font-size: 18px;
+    width: 70%;
+   }
+   .hero{
+    padding-top: 100px;
+}
+}
+@media (max-width : 1000px) {
+    .scroll{
+        display: none;
+    }
+ }
+ @media (max-width : 992px) {
+    .pressStart{
+        right: 88px;
+        bottom: 120px;
+        width: 20%;
+    } 
+    .start{
+        right: 230px;
+        bottom: 160px;
+    }
+ }
+@media (max-width : 768px) {
+    .pattrens{
+        display: none;
+    }
+    .FooterMobile{
+        display: block;
+        z-index: -1;
+    }
+    .gameBoy,.pressStart,.start{
+        display: none;
+    }
+    .gamefor{
+        display: block;
+        bottom: 25px;
+    }
+    .heroFooter{
+        display: none;
+    }
+    .experience{
+        display: block;
+    }
+    .textFooter{
+        align-items: flex-start;
+        flex-direction: column;
+        bottom: 0px;
+        z-index: 1;
+    }
+    .copyRighthero{
+        padding: 0;
+    }
+    .heroText{
+        width: 100%;
+    }
+    .heroText p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+@media (max-width : 576px) {
+    .experience{
+        display: none;
+    }
+    .gamefor{
+        width: 40%;
+    }
+}
+@media (max-width : 376px) {
+    .heroText h1{
+        font-size: 20px;
+    }
+    .heroText p{
+        font-size: 14px
+    }
+    .gamefor{
+        width: 35%;
+        bottom: 45px;
+    }
+}
